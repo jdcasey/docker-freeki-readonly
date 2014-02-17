@@ -2,5 +2,5 @@ Docker wrapper for [Freeki](https://github.com/jdcasey/freeki) that runs in read
 
 To run:
 
-    docker run -e=https://github.com/myuser/mucontent.git -d -p 8080:8080 buildchimp/docker-freeki-readonly
+    docker run -e URL=https://github.com/myuser/mucontent.git -d -p 8080:8080 buildchimp/docker-freeki-readonly
 
